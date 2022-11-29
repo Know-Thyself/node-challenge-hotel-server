@@ -13,7 +13,7 @@ app.use(cors());
 
 const routes = [
 	{ route: '/bookings', method: 'GET', returns: 'all bookings' },
-	{ route: '/bookings/id', method: 'GET', returns: 'a booking by id' },
+	{ route: '/bookings/id', method: 'GET', returns: 'customer profile by id' },
 	{
 		route: '/bookings/search?date=YYYY-MM-DD',
 		method: 'GET',
